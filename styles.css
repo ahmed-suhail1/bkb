@@ -458,3 +458,10 @@ footer { position: relative; overflow: hidden; background: var(--dark); color: #
   .reveal { opacity: 1; transform: none; }
   .image-reveal { clip-path: none; }
 }
+
+.js .commodity-tile.reveal,
+.js .commodity-tile.image-reveal {
+  opacity: 1;
+  transform: none;
+  clip-path: none;
+}
