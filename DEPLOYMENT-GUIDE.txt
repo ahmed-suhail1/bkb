@@ -1,0 +1,20 @@
+BKB STATIC WEBSITE — DEPLOYMENT GUIDE
+
+This package is framework-free. Keep index.html, styles.css, script.js and the assets folder together.
+
+GITHUB PAGES
+1. Create a GitHub repository.
+2. Upload the CONTENTS of this folder to the repository root (do not upload only the ZIP).
+3. Open repository Settings > Pages.
+4. Under Build and deployment choose "Deploy from a branch".
+5. Select the main branch and /(root), then Save.
+6. GitHub will show the public URL when deployment is ready.
+
+GUZEL HOSTING OR ANOTHER SHARED HOST
+1. Open the hosting control panel and File Manager.
+2. Open the website document root, normally public_html, www or httpdocs.
+3. Upload and extract the package CONTENTS there.
+4. Confirm index.html is directly inside the document root, not one folder deeper.
+5. Point the domain to the host using its DNS instructions and enable SSL/HTTPS.
+
+The package uses relative paths, so it works at a domain root or inside a GitHub Pages repository subfolder.
